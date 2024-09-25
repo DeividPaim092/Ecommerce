@@ -1,0 +1,23 @@
+@keyframes colorBlink {
+  0% {
+    color: rgb(0, 255, 0); /* Verde */
+  }
+  25% {
+    color: rgb(255, 0, 0); /* Vermelho */
+  }
+  50% {
+    color: rgb(255, 255, 0); /* Amarelo */
+  }
+  75% {
+    color: rgb(255, 0, 0); /* Vermelho */
+  }
+  100% {
+    color: rgb(0, 255, 0); /* Verde */
+  }
+}
+
+.blinking-text {
+  animation: colorBlink 2s infinite; /* Ajuste a duração conforme necessário */
+  text-align: center;
+  font-size: 50px;
+}
